@@ -1,0 +1,118 @@
+
+.input {
+    width: 50%;
+    margin-left: 25%;
+    font-family: 'Cinzel Decorative';
+}
+
+.figure {
+    margin: 0 auto;
+}
+
+.hero {
+    font-family: 'Cinzel Decorative' !important;
+    margin: 0 auto;
+    height: 100%;
+    background: linear-gradient(to bottom,#800000, #ff9933 100%);
+}
+
+.submit, .random {
+    width: 30%;
+   }
+
+#pTrend {
+    color: white;
+    margin-top: 25px;
+    padding: 12px;
+    font-weight: 700;
+    font-family: 'Cinzel Decorative';
+}
+
+.hero-footer {
+   color: maroon;
+   padding-top: 30px;
+   padding-bottom: 60px;
+}
+
+.link {
+    color: white;
+}
+
+.button {
+    color: maroon;
+    font-family: 'Cinzel Decorative';
+}
+
+/* dynamically formed page for displaying songs */
+.translated-text {
+    padding: 20px 20%;
+    color: maroon;
+    font-family: 'Raleway';
+}
+
+.footinfo {
+    font-family: 'Raleway';
+    font-size: 14px;
+}
+.display{
+    display:block;
+    margin: 10px auto;
+}
+
+
+.modal-content{
+    background: white;
+    width: 30%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 3%;
+}
+
+.delete {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.columns {
+    max-width: 100%;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 30px;
+    color: orange;
+}
+
+.lyric-div {
+    margin-bottom: 20px !important;
+    background: wheat;
+    opacity: 0.9;
+    margin: 20px 17%;
+    border-radius: 25px;
+}
+   /* Media Responsive Settings  */
+
+
+
+@media only screen and (max-width: 768px) {
+ .is-pulled-left, .is-pulled-right {
+     float: none !important;
+ }
+ .translated-text {
+    padding: 15px 10%;
+    color: maroon;
+ }
+ .lyric-div {
+     margin-bottom: 10px !important;
+     margin: 10px 8%;
+ }
+.modal-content{
+    width: 90%;
+}
+.link {
+    color: white;
+}
+};
