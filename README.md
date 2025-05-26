@@ -6,8 +6,7 @@ Key Functionality
 
 ~  Lyric API interlinked with Shakespearan translator API brought to user via text to speech JQuery calls
 ~  Bulma front end generating sleek user interface
-~  Compartmentalized code with specific function calls clearly defined by purpose.  
-~  Intermediate techniques used to iterate over user data stored real time in Firebase and managed as an array of objects
+~  Compartmentalized code with specific function calls clearly defined by purpose. 
 ~  Mobile first design for user display
 
 
